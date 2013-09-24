@@ -19,100 +19,9 @@
         <h1>12-grid</h1>
 
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" 		aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Modal title</h4>
-        </div>
-        <div class="modal-body">
-		<img src="http://placehold.it/500x300">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
+	<?php include 'inc/modal.php'; ?>
+	<?php include 'inc/row-limited-prod.php'; ?>
 	
-  <div class="row">
-  		
-  		<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a data-toggle="modal" href="#myModal" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	</div>
-    	
-    	<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	
-    	</div>
-    	<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	
-    	</div>
-    	<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	
-    	</div>
-    	<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	
-    	</div>
-    	<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	
-    	</div>
-    	<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	
-    	</div>
-    	<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	
-    	</div>
-    	<div class="col-xs-4  col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	
-    	</div>
-    	<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	
-    	</div>
-    	<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-    	
-    	</div>
-    	<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-  		<a href="#" class="thumbnail">
-  				<img src="http://placehold.it/200x200">
-    	</a>
-	    	
-    	</div>
-    	
-  </div><!--row-->
     <div class="row">
   		
   		<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
@@ -342,9 +251,7 @@
     	
   </div><!--row-->  
   
-  <?php 
-  include 'row.php'; 
-  ?>
+  <?php include 'inc/row.php'; ?>
   
   </div><!--wrapper-->
 
