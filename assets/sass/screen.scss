@@ -5,8 +5,14 @@
 
 /*@import "compass/reset";*/
 
+/* 
 .modal-body img {
 margin: 0 18px; 
+}
+ */
+
+.thumbnail  > img {
+	width: 200px;
 }
 
 img {
@@ -40,6 +46,7 @@ border-radius: 4px;
 -webkit-transition: all 0.2s ease-in-out;
 transition: all 0.2s ease-in-out;
 }
+
 /*.row {
 	margin-bottom: 15px;
 }

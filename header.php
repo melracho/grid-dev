@@ -7,4 +7,3 @@
     <?php include 'script.php'; ?>
   </head>
   <body>
-        <!--<h1>12-grid</h1>-->

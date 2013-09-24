@@ -5,7 +5,7 @@
   		
   		<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
   		<a data-toggle="modal" href="#myModal" class="thumbnail">
-  				<img src="img/categories/sculpture.png">
+  				<img src="img/categories/limited-production.png">
     	</a>
     	</div>
     	
